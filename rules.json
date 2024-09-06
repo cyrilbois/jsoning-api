@@ -1,0 +1,12 @@
+[
+  {
+    "input": { "method": "GET", "path": "/status/401" }, 
+    "output": { "status": 401, "response": {"error": "demo error"} },
+    "stop" : true
+  },
+  {
+    "input": { "path": "/users/*" }, 
+    "output": { "headers": {"x-header-users": "demo"} },
+    "stop" : false
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "JSONing API",
+  "version": "1.0.0",
+  "description": "Mock rest api",
+  "main": "src/bin.js",
+  "scripts": {
+    "start": "node src/bin.js",
+    "test": "jest"
+  },
+  "bin": {
+    "jsoning-api": "./src/bin.js"
+  },
+  "author": "Cyril Bois",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrilbois/jsonin-gapi.git"
+  },
+  "homepage": "https://github.com/cyrilbois/jsoning-api#readme",
+  "bugs": {
+    "url": "https://github.com/cyrilbois/jsoning-api/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
