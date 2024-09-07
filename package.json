@@ -1,5 +1,5 @@
 {
-  "name": "JSONing API",
+  "name": "jsoning-api",
   "version": "1.0.0",
   "description": "Mock rest api",
   "main": "src/bin.js",

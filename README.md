@@ -19,24 +19,22 @@ Create a `db.json` file
 
 ```json
 {
-  {
-    "products": [
-      {
-        "id": 1, "name": "T-shirt", "price": 19.99
-      },
-      {
-        "id": 2, "name": "Jeans", "price": 49.99
-      }
-    ],
-    "users": [
-      {
-        "id": 1, "username": "johndoe", "email": "johndoe@example.com"
-      },
-      {
-        "id": 2, "username": "janedoe", "email": "janedoe@example.com"
-      }
-    ]
-}
+  "products": [
+    {
+      "id": 1, "name": "T-shirt", "price": 19.99
+    },
+    {
+      "id": 2, "name": "Jeans", "price": 49.99
+    }
+  ],
+  "users": [
+    {
+      "id": 1, "username": "johndoe", "email": "johndoe@example.com"
+    },
+    {
+      "id": 2, "username": "janedoe", "email": "janedoe@example.com"
+    }
+  ]
 }
 ```
 In this example, you have created 2 resources: "products" and "users" (2 objects for each resource).
